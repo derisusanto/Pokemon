@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 8;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    min-height:10vh ;
+    align-items: center;
+    font-family: inter;
+    background-color:transparent;
+    color: #fff;
+}
+
+nav .logo {
+    font-size: 20px;
+    font-weight:  788;
+    text-transform: Black;
+}
+
+nav .nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    font-color: black;
+}
+
+nav .nav-links a {
+    font-size: 18px;
+    font-weight: normal;
+    cursor: pointer;
+    margin: 1vw;
+}
+
+nav .nav-links a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+@media all and (max-width: 258px){
+
+}
